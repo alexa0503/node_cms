@@ -1,3 +1,6 @@
+.idea/
+.idea/*
+credentials.js
 # Logs
 logs
 *.log

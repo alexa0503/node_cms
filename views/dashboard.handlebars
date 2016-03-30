@@ -1,0 +1,88 @@
+
+<div id="top">
+    <div class="container-fluid">
+        <div class="pull-left">
+            <a href="dashboard.html#" id="brand"><span></span>O.M.P.</a>
+            <!--<div class="collapse-me">
+                <a href="messages.html" class="button">
+                    <i class="icon-comment icon-white"></i>
+                    Messages
+                    <span class="badge badge-important">21</span>
+                </a>
+                <a href="dashboard.html#" class="button">
+                    <i class="icon-question-sign icon-white"></i>
+                    Support tickets
+                    <span class="badge badge-info">3</span>
+                </a>
+                <a href="dashboard.html#" class="button">
+                    <i class="icon-truck icon-white"></i>
+                    Orders
+                    <span class="badge badge-default">5</span>
+                </a>
+            </div>-->
+        </div>
+        <div class="pull-right">
+            <div class="btn-group">
+                <a href="dashboard.html#" class="button dropdown-toggle" data-toggle="dropdown"><i class="icon-white icon-user"></i>John Doe<span class="caret"></span></a>
+                <div class="dropdown-menu pull-right">
+                    <div class="right-details">
+                        <h6>Logged in as</h6>
+                        <span class="name">John Doe</span>
+                        <span class="email">john.doe@example.com</span>
+                        <a href="dashboard.html#" class="highlighted-link">Need help?</a>
+                        <ul>
+                            <li>
+                                <a href="dashboard.html#">Getting started</a>
+                            </li>
+                            <li>
+                                <a href="dashboard.html#">Account settings</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="index.html" class="button">
+                <i class="icon-signout"></i>
+                Logout
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="main">
+    {{> navigation }}
+    <div id="content">
+        <div class="page-header">
+            <div class="pull-left">
+                <h4><i class="icon-home"></i> Dashboard</h4>
+            </div>
+            <div class="pull-right">
+                <ul class="bread">
+                    <li><a href="dashboard.html">Home</a><span class="divider">/</span></li>
+                    <li class='active'>Dashboard</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="content-area">
+            <div class="row-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="navi-functions">
+    <div class="btn-group btn-group-custom">
+        <a href="dashboard.html#" class="button button-square layout-not-fixed notify" rel="tooltip" title="Toggle fixed-nav" data-notify-message="Fixed nav is now {{state}}" data-notify-title="Toggled fixed nav">
+            <i class="icon-unlock"></i>
+        </a>
+        <a href="dashboard.html#" class="button button-square layout-not-fluid notify button-active" rel="tooltip" title="Toggle fixed-layout" data-notify-message="Fixed layout is now {{state}}" data-notify-title="Toggled fixed layout">
+            <i class="icon-exchange"></i>
+        </a>
+        <a href="dashboard.html#" class="button button-square notify notify-inverse layout-no-nav" rel="tooltip" title="Toggle navigation" data-notify-message="Navigation is now {{state}}" data-notify-title="Toggled navigation">
+            <i class="icon-arrow-left"></i>
+        </a>
+        <a href="dashboard.html#" class="button button-square button-active force-last notify-toggle toggle-active notify" rel="tooltip" title="Toggle notification"  data-notify-message="Notifications turned {{state}}" data-notify-title="Toggled notifications">
+            <i class="icon-bullhorn"></i>
+        </a>
+    </div>
+</div>
